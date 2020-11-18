@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 125%;
+    font-family:   'Karla', sans-serif;
+}
+div.intro{
+    background-image:linear-gradient(to bottom,rgba(220, 220, 255, 1),
+    rgba(255, 255, 255, 1));
+    height: 80vh;
+    text-align: center;
+    width:100%;
+    box-shadow: 0.3px 0.3px 5px #909090;
+}
+a{
+    text-decoration: none;
+    color:rgba(127, 161, 188, 1);
+}
+.nav{
+    padding: 80px 0 0 0 ;
+    margin: 0;
+    font-size: 80%;
+    text-align: right;
+    color:rgba(127, 161, 188, 1);
+}
+.link{
+    font-family:'Karla', sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    color:rgba(127, 161, 188, 1);
+    font-weight: 600;
+}
+.link:hover{
+    color: rgb(167, 201, 228);
+}
+.name{
+    font-family:'Quicksand', sans-serif;
+    font-size: 3rem;
+    margin: 0 auto 0;
+    padding: 200px 0 0 0;
+    color: rgba(36, 52, 71, 1);    
+}
+.desc{
+    padding:0;
+    margin: 0;
+}
+.cloudsun{
+    position:absolute;
+    left:10%;
+}
+.body{
+    display: grid;
+    margin:0 7%;
+}
+h2{
+    font-family:   'Montserrat', sans-serif;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 128, 255, 0.7);
+    border-right: 1px solid rgba(0, 128, 255, 0.7);
+}
+hr{
+        margin: 50px auto;
+        width:3%;
+        border: dotted rgba(120, 120, 120, 0.8) 8px;
+        border-bottom: none;
+}
+.education, .work{
+    text-align: justify;
+}
+.course, .project{
+    width:100%;
+    font-size: 75%;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgba(0, 128, 255, 0.5);
+}
+.coursetitle, .worktitle{
+    color: rgba(0, 128, 255, 1);
+    font-family:   'Montserrat', sans-serif;
+}
+.skills{
+   text-align: center ;
+   margin: 10% auto;
+}
+.skill{
+    text-align: center ;
+
+ }
+progress{
+    display: block;
+    margin:15px auto;
+}
+.skillimg{
+    width:10%;
+    height: 10%;
+    display: block;
+    margin:15px auto;
+}
+.contact{
+    margin: 40px;
+}
+.contactbtn{
+    margin:20px auto;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color:white;
+    font-size: 15px;
+    background-image: -webkit-linear-gradient(top,rgb(187, 221, 248), rgba(147, 181, 208, 1) );
+    text-decoration: none;
+    box-shadow: -0.2px -0.2px 5px  rgb(102, 102, 112);
+}
+.contactbtn:hover{
+    background-image: -webkit-linear-gradient(top,rgb(167, 201, 228), rgba(127, 161, 188, 1) );
+    text-decoration: none;
+    box-shadow: -0.2px -0.2px 10px  rgb(102, 102, 112);
+}
+.footer{
+    background-color: rgba(167, 201, 228, 0.7);
+    margin: 0 auto 0px;
+    padding:20px;
+    box-shadow:0.1px -0.1px 5px #909090;
+}
+.copyright{
+    margin: 10px auto 0px;
+    padding: 10px auto 0px;
+    color:rgba(100, 100, 100, 1);
+    font-size: 80%;
+}
+.footlinks{
+    margin:20px 10px 0 10px;
+    padding:0;
+    width:30px;
+    
+}
+.footlink{
+    margin:10px 10px 0 10px;
+    padding:0;
+    border-top: 0.01px solid #aaaaaa;
+}
